@@ -27,11 +27,12 @@ const Title = styled.h1`
   font-style: normal;
   font-weight: bold;
   font-size: 50px;
+  margin-bottom: 20px;
 `;
 
 const Description = styled.p`
   max-width: 240px;
-  color: #fff7;
+  color: #fff9;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
