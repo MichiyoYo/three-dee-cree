@@ -6,6 +6,7 @@ import TextSection from "./components/TextSection";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Sphere } from "@react-three/drei";
 import Box from "./components/Box";
+import AnimatedSphere from "./components/AnimatedSphere";
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
         <ambientLight intensity={0.5} />
         <directionalLight position={[-2, 5, 2]} intensity={1} />
         <Suspense fallback={null}>
-          <Sphere />
+          <AnimatedSphere />
         </Suspense>
       </Canvas>
     </Wrapper>
